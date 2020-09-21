@@ -1,13 +1,15 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
 
-  Firestore.instance
-      .collection("col")
-      .document("doc")
-      .setData({"texto": "RAFA"});
+  QuerySnapshot snapshot =
+      await Firestore.instance.collection('mensagens').getDocuments();
+
+  snapshot.documents.forEach((element) {
+    print(element.data);
+  });
 }
 
 class MyApp extends StatelessWidget {
