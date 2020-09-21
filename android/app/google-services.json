@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746375180256",
+    "firebase_url": "https://chaton-957ac.firebaseio.com",
+    "project_id": "chaton-957ac",
+    "storage_bucket": "chaton-957ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746375180256:android:f1b13f054ea3a710a94585",
+        "android_client_info": {
+          "package_name": "com.example.chat_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746375180256-tlp3muipu0i05865d63mkkl717obpgdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat_online",
+            "certificate_hash": "f380864c38ad7dd48351d8784652eed535968d26"
+          }
+        },
+        {
+          "client_id": "746375180256-43aiinqtcn7q87mgumoemet4eb1be0k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbrV2hM-f_SxCTqmDfQeLtUXZky0607vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746375180256-43aiinqtcn7q87mgumoemet4eb1be0k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
