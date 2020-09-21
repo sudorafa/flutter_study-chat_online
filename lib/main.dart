@@ -4,11 +4,10 @@ import 'package:flutter/material.dart';
 void main() async {
   runApp(MyApp());
 
-  QuerySnapshot snapshot =
-      await Firestore.instance.collection('mensagens').getDocuments();
-
-  snapshot.documents.forEach((element) {
-    print(element.data);
+  Firestore.instance.collection('mensagens').snapshots().listen((event) {
+    event.documents.forEach((element) {
+      print(element.data);
+    });
   });
 }
 
